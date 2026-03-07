@@ -1,0 +1,13 @@
+{
+  "name": "dev-flow",
+  "description": "Personal dev workflow plugins. Connect Linear issues to your codebase — start focused, ship clean.",
+  "plugins": [
+    {
+      "name": "dev-flow",
+      "description": "Workflow assistant for solo devs. /start loads a Linear issue and creates your branch. /wrap generates the commit from the real diff and updates Linear. Includes socratic debugging skill and PreToolUse hook.",
+      "path": "plugins/dev-flow",
+      "version": "1.0.0",
+      "tags": ["workflow", "linear", "git", "productivity"]
+    }
+  ]
+}
