@@ -1,0 +1,26 @@
+{
+  "name": "dev-flow",
+  "version": "1.0.0",
+  "description": "Personal dev workflow assistant. Connects Linear issues to your codebase — start focused, ship clean.",
+  "commands": [
+    "commands/start.md",
+    "commands/wrap.md"
+  ],
+  "skills": [
+    "skills/dev-context.md",
+    "skills/rubber-duck.md"
+  ],
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash hooks/check-issue-active.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
