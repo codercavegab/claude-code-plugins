@@ -1,7 +1,7 @@
 {
   "name": "dev-flow",
-  "version": "1.0.0",
-  "description": "Personal dev workflow assistant. Connects Linear issues to your codebase — start focused, ship clean.",
+  "version": "2.0.0",
+  "description": "Dev workflow assistant. /standup generates your daily standup from GitHub + Linear. /pr prepares and opens a Pull Request automatically.",
   "author": {
     "name": "codercavegab",
     "email": "thecodercaveok@gmail.com"
